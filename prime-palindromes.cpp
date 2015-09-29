@@ -14,7 +14,7 @@ void printPrimePalindrome (int num, int& prime);
 void stopFunction (int num);
 
 int main(int argc, const char * argv[]) {
-    int num;
+    long int num;
     int prime (2);
     std::cout << "Enter a number less than one million to find out a bigger number that is a prime palindrome: ";
     std::cin >> num;
